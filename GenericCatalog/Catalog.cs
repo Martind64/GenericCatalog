@@ -39,10 +39,8 @@ namespace GenericCatalog
                 {
                     return element;
                 }
-                return default (TElement);
             }
-
-
+            return default(TElement);
         }
 
         public int Count()
